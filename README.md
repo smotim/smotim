@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi there! I'm Tim 👋
 
-<!--
-**smotim/smotim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Fullstack developer and team lead, building and maintaining an internal CRM system using Laravel and Nuxt. Passionate about robust, scalable solutions, automation, and helping my team grow.
 
-Here are some ideas to get you started:
+## 🛠️ Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Backend:** Laravel, PHP
+- **Frontend:** Nuxt, TypeScript
+- **DevOps:** Docker, Linux
+
+## 🚀 Featured Project
+
+[**cdek-sdk-v2**](https://github.com/smotim/cdek-sdk-v2)  
+A fork of the official CDEK SDK with improvements and updates for compatibility with the latest API version.
+
+---
