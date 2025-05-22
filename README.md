@@ -11,6 +11,6 @@ Fullstack developer and team lead, building and maintaining an internal CRM syst
 ## 🚀 Featured Project
 
 [**cdek-sdk-v2**](https://github.com/smotim/cdek-sdk-v2)  
-A fork of the official CDEK SDK with improvements and updates for compatibility with the latest API version.
+A fork of the unofficial CDEK SDK with improvements and updates for compatibility with the latest API version.
 
 ---
