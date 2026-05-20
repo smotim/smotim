@@ -4,17 +4,23 @@
 
 **Fullstack Developer & Team Lead**
 
-Building internal tooling for a trading company · Разрабатываю внутренний софт для торговли
-
 </div>
 
 ---
 
 ### About / О себе
 
-**EN** · I build and maintain **Iceberg** — a large internal CRM for **ТД УЭТ**, a Russian trading company. It covers the full order lifecycle: order and customer management, multi-carrier shipment tracking (CDEK, DPD, Dellin, PECOM, KIT), invoicing, and warehouse operations. On top of that I built a separate operational dashboard for daily logistics monitoring. I lead the dev team and own the architecture end-to-end.
+**EN** · Two projects in parallel, different contexts:
 
-**RU** · Разрабатываю и поддерживаю **Iceberg** — внутреннюю CRM компании **ТД УЭТ**. Система закрывает полный цикл заказа: управление заказами и клиентами, трекинг отправлений через несколько перевозчиков (CDEK, DPD, Dellin, PECOM, KIT), счета, складской учёт. Отдельно поддерживаю операционный дашборд для мониторинга логистики. Руковожу командой разработки, отвечаю за архитектуру.
+- **Iceberg** — internal CRM for **ТД УЭТ**, a Russian trading company. Covers the full order lifecycle: customer and order management, multi-carrier shipment tracking (CDEK, DPD, Dellin, PECOM, KIT), invoicing, warehouse operations, and an operational dashboard. I lead the dev team and own the architecture end-to-end.
+
+- **Stories in Bars** — a Telegram MiniApp I build and run solo. Handles lecture scheduling, seat booking, and payments (YooKassa), backed by a Laravel 12 API with Redis queues, a separate notification gateway, and a Python MCP server. Fully automated CI/CD: deploy to dev and prod, BotFather URL update, and Telegram notification — all on push.
+
+**RU** · Два проекта параллельно, разный контекст:
+
+- **Iceberg** — внутренняя CRM компании **ТД УЭТ**. Полный цикл заказа: клиенты, заказы, трекинг отправлений через несколько перевозчиков (CDEK, DPD, Dellin, PECOM, KIT), счета, складской учёт, операционный дашборд. Веду команду разработки, отвечаю за архитектуру.
+
+- **Истории в баре** — Telegram MiniApp, который делаю и поддерживаю в одиночку. Расписание лекций, бронирование мест, оплата через YooKassa. Laravel 12 API с Redis-очередями, отдельный шлюз уведомлений, Python MCP-сервер. Полный CI/CD: деплой на dev и прод, обновление URL в BotFather, уведомление в Telegram — всё автоматически при пуше.
 
 ---
 
@@ -25,13 +31,14 @@ Building internal tooling for a trading company · Разрабатываю вн
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
 ### Open source
 
-The carrier integrations I use in production — extended with real-world tracking models and contributed back:
+Carrier integrations I use in production — extended with real-world tracking models and contributed back:
 
 | Project | Description |
 |---|---|
