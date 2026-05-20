@@ -49,10 +49,4 @@ Carrier integrations I use in production — extended with real-world tracking m
 
 ---
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=smotim&theme=transparent&hide_border=true)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smotim&layout=compact&hide_border=true&theme=transparent&langs_count=6)](https://github.com/smotim)
-
-</div>
+[github.com/smotim](https://github.com/smotim?tab=repositories) · [barzhahub.ru](https://barzhahub.ru)
