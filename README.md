@@ -14,13 +14,13 @@
 
 - **Iceberg** — internal CRM for **ТД УЭТ**, a Russian trading company. Covers the full order lifecycle: customer and order management, multi-carrier shipment tracking (CDEK, DPD, Dellin, PECOM, KIT), invoicing, warehouse operations, and an operational dashboard. I lead the dev team and own the architecture end-to-end.
 
-- **Stories in Bars** — a Telegram MiniApp I build and run solo. Handles lecture scheduling, seat booking, and payments (YooKassa), backed by a Laravel 12 API with Redis queues, a separate notification gateway, and a Python MCP server. Fully automated CI/CD: deploy to dev and prod, BotFather URL update, and Telegram notification — all on push.
+- **Stories in Bars** — a web service and Telegram MiniApp I build and run solo. Handles lecture scheduling, seat booking, and payments (YooKassa), backed by a Laravel 12 API with Redis queues, a separate notification gateway, and a Python MCP server. Fully automated CI/CD: deploy to dev and prod, BotFather URL update, and Telegram notification — all on push.
 
 **RU** · Два проекта параллельно, разный контекст:
 
 - **Iceberg** — внутренняя CRM компании **ТД УЭТ**. Полный цикл заказа: клиенты, заказы, трекинг отправлений через несколько перевозчиков (CDEK, DPD, Dellin, PECOM, KIT), счета, складской учёт, операционный дашборд. Веду команду разработки, отвечаю за архитектуру.
 
-- **Истории в баре** — Telegram MiniApp, который делаю и поддерживаю в одиночку. Расписание лекций, бронирование мест, оплата через YooKassa. Laravel 12 API с Redis-очередями, отдельный шлюз уведомлений, Python MCP-сервер. Полный CI/CD: деплой на dev и прод, обновление URL в BotFather, уведомление в Telegram — всё автоматически при пуше.
+- **Истории в баре** — веб-сервис и Telegram MiniApp, который делаю и поддерживаю в одиночку. Расписание лекций, бронирование мест, оплата через YooKassa. Laravel 12 API с Redis-очередями, отдельный шлюз уведомлений, Python MCP-сервер. Полный CI/CD: деплой на dev и прод, обновление URL в BotFather, уведомление в Telegram — всё автоматически при пуше.
 
 ---
 
