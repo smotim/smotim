@@ -1,28 +1,11 @@
-<div align="center">
+# Hi, I'm Tim 👋
 
-## Tim · Тимофей
+Full-stack developer with ~4 years of production experience, mostly **Laravel** and **Nuxt**.
 
-**Fullstack Developer & Team Lead**
-
-</div>
-
----
-
-### About / О себе
-
-**EN** · Two projects in parallel, different contexts:
-
-- **Iceberg** — internal CRM for **ТД УЭТ**, a Russian trading company. Covers the full order lifecycle: customer and order management, multi-carrier shipment tracking (CDEK, DPD, Dellin, PECOM, KIT), invoicing, warehouse operations, and an operational dashboard. I lead the dev team and own the architecture end-to-end.
-
-- **Stories in Bars** — a web service and Telegram MiniApp I build and run solo. Handles lecture scheduling, seat booking, and payments (YooKassa), backed by a Laravel 12 API with Redis queues, a separate notification gateway, and a Python MCP server. Fully automated CI/CD: deploy to dev and prod, BotFather URL update, and Telegram notification — all on push.
-
-**RU** · Два проекта параллельно, разный контекст:
-
-- **Iceberg** — внутренняя CRM компании **ТД УЭТ**. Полный цикл заказа: клиенты, заказы, трекинг отправлений через несколько перевозчиков (CDEK, DPD, Dellin, PECOM, KIT), счета, складской учёт, операционный дашборд. Веду команду разработки, отвечаю за архитектуру.
-
-- **Истории в баре** — веб-сервис и Telegram MiniApp, который делаю и поддерживаю в одиночку. Расписание лекций, бронирование мест, оплата через YooKassa. Laravel 12 API с Redis-очередями, отдельный шлюз уведомлений, Python MCP-сервер. Полный CI/CD: деплой на dev и прод, обновление URL в BotFather, уведомление в Telegram — всё автоматически при пуше.
-
----
+I lead development of an internal B2B CRM: designing architecture, implementing
+complex business logic, reviewing code and mentoring junior developers and interns.
+I like owning products end-to-end, from the data model to deployment and support
+in production.
 
 ### Stack
 
@@ -34,20 +17,26 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
+
+
+**Currently exploring:** AI integrations in business applications
+
+**Side projects:**
+- Ticketing & event platform for a city lecture series, with a Telegram and Max miniapps
+
 
 ### Open source
 
-Carrier integrations I use in production — extended with real-world tracking models and contributed back:
+**[socialiteproviders-telegram-oidc](https://github.com/smotim/socialiteproviders-telegram-oidc)** —
+Telegram OIDC provider for Laravel Socialite: Authorization Code + PKCE, JWT validation.
+Submitted to SocialiteProviders ([PR](https://github.com/...)).
 
-| Project | Description |
-|---|---|
-| [socialiteproviders-telegram-oidc](https://github.com/smotim/socialiteproviders-telegram-oidc) | Telegram OIDC provider for Laravel Socialite — Authorization Code + PKCE, JWT validation |
-| [laravel-pecom](https://github.com/smotim/laravel-pecom) | Laravel wrapper for PECOM API, extended with shipment tracking models |
-| [laravel-dellin](https://github.com/smotim/laravel-dellin) | Laravel wrapper for Dellin API, extended with shipment tracking models |
-| [cdek-sdk-v2](https://github.com/smotim/cdek-sdk-v2) | CDEK SDK v2 — fixes and localization improvements |
+SDKs for Russian freight carriers that I use in production:
 
----
+- [laravel-pecom](https://github.com/smotim/laravel-pecom) — PECOM API. Took over after the original
+  package was abandoned; added shipment tracking models and keep it maintained
+- [laravel-dellin](https://github.com/smotim/laravel-dellin) — Dellin API, extended with shipment tracking models
+- [cdek-sdk-v2](https://github.com/smotim/cdek-sdk-v2) — CDEK API, fixes and localization improvements
 
 <div align="center">
 
