@@ -29,7 +29,7 @@ in production.
 
 **[socialiteproviders-telegram-oidc](https://github.com/smotim/socialiteproviders-telegram-oidc)** —
 Telegram OIDC provider for Laravel Socialite: Authorization Code + PKCE, JWT validation.
-Submitted to SocialiteProviders ([PR](https://github.com/...)).
+Submitted to SocialiteProviders).
 
 SDKs for Russian freight carriers that I use in production:
 
