@@ -23,10 +23,18 @@ that lets admins run an event platform from Claude, and Claude code review in CI
 
 **Side projects:**
 - [barzhahub.ru](https://barzhahub.ru) — ticketing & event platform for a city lecture series:
-  Laravel API, Telegram and MAX mini apps on Nuxt, an admin panel, YooKassa payments,
-  web push, and a Go gateway for Telegram egress
+  Laravel API, Telegram and MAX mini apps on Nuxt (on the module below), an admin panel,
+  YooKassa payments, web push, and a Go gateway for Telegram egress
 
 ### Open source
+
+**[nuxt-miniapp-telegram-max](https://github.com/smotim/nuxt-miniapp-telegram-max)**
+[![npm](https://img.shields.io/npm/v/nuxt-miniapp-telegram-max?style=flat-square)](https://www.npmjs.com/package/nuxt-miniapp-telegram-max) —
+Nuxt module for mini apps in both Telegram and MAX from one codebase, with the plain website
+as a third client. One SSR-safe API over both official SDKs, workarounds for what the real
+clients do (init data cut short on Android, the launch hash set late on iOS, MAX's promise
+rejections), a back button stack, and init data validation on the server with Web Crypto.
+Extracted from production; published with npm provenance.
 
 **[perepost](https://github.com/smotim/perepost)** — self-hosted Go bot that mirrors Telegram
 channel posts to MAX channels: formatting, media, albums, many-to-many routes.
@@ -45,11 +53,16 @@ SDKs for Russian freight carriers that I use in production:
 
 Contributions upstream:
 
+- [getsentry/sentry-php#2293](https://github.com/getsentry/sentry-php/pull/2293) — filter URL signatures
+  (Laravel signed routes, presigned S3 URLs) from collected event data
 - [laravel/mcp#358](https://github.com/laravel/mcp/pull/358) — stop sending structured content twice in `execute_tools` results
 - [CarbonPHP/carbon#158](https://github.com/CarbonPHP/carbon/pull/158) — Russian plural forms for milliseconds and microseconds
 - [max-bot-api-client-php](https://github.com/BushlanovDev/max-bot-api-client-php/pulls?q=is%3Apr+author%3Asmotim) —
-  sync with Bot API schema 0.0.33, `editBotCommands`, skip updates that don't fit their model
+  sync with Bot API schema 0.0.33, `editBotCommands`, skip updates that don't fit their model,
+  mini app init data validation ([#48](https://github.com/BushlanovDev/max-bot-api-client-php/pull/48), in review)
 - [SocialiteProviders/Providers#1496](https://github.com/SocialiteProviders/Providers/pull/1496) — pass Socialite's Guzzle options to the OIDC HTTP client
+- [nuxt/module-builder#806](https://github.com/nuxt/module-builder/pull/806) — build modules under a path with
+  spaces or non-ASCII characters (in review)
 
 <div align="center">
 
